@@ -117,12 +117,20 @@
   }
   .login-illustration {
     left: 0;
+    width: 90%;
+    transform: scale(1) translate(0%);
   }
   .marketing-layout img {
     width: 75%;
   }
   .disappear {
     display: none;
+  }
+  #community-section h2 {
+    font-size: 2rem;
+  }
+  .open-menu {
+    right: 2rem;
   }
 }
 

@@ -27,6 +27,9 @@
 .business-info h3 {
   font-size: 3rem;
   color: #444;
+  width: 100%;
+  max-width: 445px;
+  align-self: center;
 }
 .business-info h3:nth-child(2) {
   color: #4cae4f !important;
@@ -71,4 +74,7 @@
   margin-top: 1rem;
   color: #666;
   margin-bottom: 0rem !important;
+}
+.business-span {
+  color: #4cae4f;
 }
