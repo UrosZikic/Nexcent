@@ -19,8 +19,9 @@
 }
 
 .client-logos {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  align-items: center;
   width: 100%;
 }
 .client-logos img {

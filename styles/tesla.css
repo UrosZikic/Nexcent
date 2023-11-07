@@ -1,0 +1,41 @@
+.tesla-wrapper {
+  background-color: #f1f3f5;
+}
+
+#tesla-section {
+  width: 100%;
+  max-width: 140rem;
+  margin: 5rem auto;
+  display: flex;
+  gap: 5rem;
+  padding: 2rem;
+}
+.tesla-logo {
+  max-width: 40rem !important;
+}
+.tesla-info p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #555;
+}
+.tesla-info p:nth-child(2) {
+  color: #4cae4f;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.tesla-info p:nth-child(3) {
+  color: #888;
+}
+.tesla-info div {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tesla-info div img {
+  width: 5rem !important;
+}
+.tesla-info div a {
+  font-size: 1.8rem;
+  color: #4cae4f;
+}

@@ -1,7 +1,7 @@
 .carousel-content--container {
   width: 100%;
   padding: 8rem 0rem;
-
+  margin-top: 10rem;
   display: flex;
   justify-content: space-around;
   align-items: center;

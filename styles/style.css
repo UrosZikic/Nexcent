@@ -15,3 +15,7 @@ body {
   color: #111;
   background: linear-gradient(to right, #fafafa 90%, #dee2e6);
 }
+
+a {
+  text-decoration: none !important;
+}
