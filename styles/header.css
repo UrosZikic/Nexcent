@@ -41,3 +41,7 @@ header nav ul li:last-child {
   padding: 1.8rem;
   border-radius: 5px;
 }
+.open-menu,
+.close-menu {
+  display: none;
+}

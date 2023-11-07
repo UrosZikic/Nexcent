@@ -12,6 +12,9 @@
 #community-section h2 {
   font-size: 4rem;
   color: #666;
+  width: 100%;
+  max-width: 60rem;
+  text-align: center;
 }
 #community-section p {
   font-size: 1.8rem;

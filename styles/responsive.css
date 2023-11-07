@@ -1,2 +1,155 @@
+@media only screen and (max-width: 1150px) {
+  /* login */
+  #login-about--section {
+    position: relative;
+  }
+  #login-about--section div {
+    margin: 0 auto;
+  }
+  .login-illustration {
+    position: absolute !important;
+    transform: scale(0.65) translate(-50%);
+    left: 50%;
+    z-index: 1;
+    opacity: 0.35;
+  }
+  .login-info {
+    z-index: 9 !important;
+    padding: 1rem;
+  }
+  #business-aid--section {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .business-layout {
+    justify-self: center;
+  }
+  /* tesla */
+  #tesla-section {
+    flex-direction: column;
+  }
+  .tesla-logo {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 900px) {
+  .carousel-content--container img {
+    position: absolute;
+    opacity: 0.3;
+    z-index: 1;
+  }
+  .carousel-content--container div {
+    z-index: 2;
+  }
+  /* community */
+  .community-offers {
+    flex-direction: column;
+  }
+  /* design section*/
+  #design-section {
+    position: relative;
+  }
+  .design-section--image {
+    position: absolute;
+    transform: scale(0.65);
+    z-index: 1;
+    opacity: 0.35;
+  }
+  .design-info {
+    z-index: 3;
+  }
+  #design-section div p {
+    color: #000;
+  }
+  /* marketing */
+  .marketing-layout {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .marketing-layout img {
+    width: 50%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .left-footer {
+    align-self: center;
+  }
+  .footer-options {
+    padding: 1rem;
+  }
+
+  nav {
+    display: none;
+  }
+  .open-menu {
+    display: block;
+    position: absolute;
+    right: 5rem;
+    font-size: 4rem;
+  }
+  .carousel-content--container {
+    margin-top: 8rem;
+  }
+  .responsive-menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  footer {
+    gap: 5rem;
+  }
+
+  .footer-options {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .footer-options div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-illustration {
+    transform: scale(0.35) translate(-100%);
+  }
+}
+
+/* responsive-menu */
+.responsive-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+
+  background-color: #fff;
+}
+.responsive-menu ul {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: black;
+
+  transform: translateY(60%);
+}
+
+.responsive-menu ul li a {
+  font-size: 4rem;
+  color: black !important;
+}
+.responsive-menu {
+  display: none;
+}
+
+.add-closeMenu {
+  display: block;
+  position: absolute;
+  right: 5rem;
+  font-size: 4rem;
 }
