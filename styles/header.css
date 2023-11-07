@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  max-width: 200rem;
+  margin: 0 auto;
+
+  padding: 2rem 0rem;
+
+  background-color: #fff;
+}
+
+header img {
+  width: 100%;
+  max-width: 24rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  list-style: none;
+}
+
+header nav ul li a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: inherit;
+  text-decoration: none;
+}
+
+header nav ul li:last-child {
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 1.8rem;
+  border-radius: 5px;
+}
