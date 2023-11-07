@@ -23,6 +23,7 @@
   }
   .business-layout {
     justify-self: center;
+    flex-direction: column;
   }
   /* tesla */
   #tesla-section {
@@ -52,7 +53,7 @@
   }
   .design-section--image {
     position: absolute;
-    transform: scale(0.65);
+    width: 100%;
     z-index: 1;
     opacity: 0.35;
   }
@@ -95,6 +96,9 @@
   .responsive-menu {
     display: block;
   }
+  header {
+    justify-content: initial;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -112,7 +116,13 @@
     align-items: center;
   }
   .login-illustration {
-    transform: scale(0.35) translate(-100%);
+    left: 0;
+  }
+  .marketing-layout img {
+    width: 75%;
+  }
+  .disappear {
+    display: none;
   }
 }
 
