@@ -22,8 +22,9 @@
     text-align: center;
   }
   .business-layout {
-    justify-self: center;
-    flex-direction: column;
+    /* justify-self: center;
+    flex-direction: column; */
+    justify-content: center;
   }
   .business-info h3 {
     align-self: center;
@@ -38,7 +39,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .carousel-content--container img {
+  .carousel-content--container picture {
     position: absolute;
     opacity: 0.3;
     z-index: 1;
@@ -56,7 +57,8 @@
   }
   .design-section--image {
     position: absolute;
-    width: 40%;
+    width: 20.4rem !important;
+    height: 20rem !important;
     z-index: 1;
     opacity: 0.35;
   }
@@ -137,6 +139,13 @@
   }
   .design-section--image {
     width: 60%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .business-layout {
+    flex-direction: column;
+    align-items: center !important;
   }
 }
 

@@ -12,11 +12,7 @@
     />
     <meta name="author" content="Uros Zikic" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -24,32 +20,28 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/carousel.css" />
-    <link rel="stylesheet" href="styles/client.css" />
-    <link rel="stylesheet" href="styles/community.css" />
-    <link rel="stylesheet" href="styles/login.css" />
-    <link rel="stylesheet" href="styles/business.css" />
-    <link rel="stylesheet" href="styles/design.css" />
-    <link rel="stylesheet" href="styles/tesla.css" />
-    <link rel="stylesheet" href="styles/marketing.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="styles/section.css
+  "
+    />
     <link rel="stylesheet" href="styles/responsive.css" />
+
     <title>Nexcent</title>
-    <link rel="icon" type="image/x-icon" href="assets\icons\favicon.png" />
+    <link rel="icon" type="image/x-icon" href="assets\icons\favicon.webp" />
   </head>
   <body>
     <header>
-      <img src="assets/icons/website-logo.png" alt="website logo" />
+      <img src="assets/icons/website-logo.webp" alt="website logo" />
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Features</a></li>
-          <li><a href="">Community</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Pricing</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#pricing">Pricing</a></li>
           <li>
-            <a href="">Register Now &#x2192;</a>
+            <a href="#">Register Now &#x2192;</a>
           </li>
         </ul>
       </nav>
@@ -59,13 +51,13 @@
     <!-- small screen nav -->
     <nav class="responsive-menu">
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Features</a></li>
-        <li><a href="">Community</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Pricing</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#pricing">Pricing</a></li>
         <li>
-          <a href="">Register Now &#x2192;</a>
+          <a href="#">Register Now &#x2192;</a>
         </li>
         <li>
           <ion-icon
@@ -102,13 +94,24 @@
                     Where to grow your business as a photographer: site or
                     social media?
                   </p>
-                  <a href="">Register</a>
+                  <a href="#">Register</a>
                 </div>
-                <img
-                  class="d-block w-100"
-                  src="assets/images/carousel-image.png"
-                  alt="First slide"
-                />
+                <picture>
+                  <source
+                    media="(min-width:901px)"
+                    srcset="assets/images/carousel-image-big.webp"
+                  />
+                  <source
+                    media="(min-width:320px)"
+                    srcset="assets/images/carousel-image.webp"
+                  />
+                  <img
+                    class="d-block w-100"
+                    src="assets/images/carousel-image.webp"
+                    alt="it person"
+                    style="width: auto"
+                  />
+                </picture>
               </div>
             </div>
             <div class="carousel-item">
@@ -119,13 +122,24 @@
                     Where to grow your business as a photographer: site or
                     social media?
                   </p>
-                  <a href="">Register</a>
+                  <a href="#">Register</a>
                 </div>
-                <img
-                  class="d-block w-100"
-                  src="assets/images/carousel-image.png"
-                  alt="First slide"
-                />
+                <picture>
+                  <source
+                    media="(min-width:901px)"
+                    srcset="assets/images/carousel-image-big.webp"
+                  />
+                  <source
+                    media="(max-width:900px)"
+                    srcset="assets/images/carousel-image.webp"
+                  />
+                  <img
+                    class="d-block w-100"
+                    src="assets/images/carousel-image-big.webp"
+                    alt="it person"
+                    style="width: auto"
+                  />
+                </picture>
               </div>
             </div>
             <div class="carousel-item">
@@ -136,13 +150,24 @@
                     Where to grow your business as a photographer: site or
                     social media?
                   </p>
-                  <a href="">Register</a>
+                  <a href="#">Register</a>
                 </div>
-                <img
-                  class="d-block w-100"
-                  src="assets/images/carousel-image.png"
-                  alt="First slide"
-                />
+                <picture>
+                  <source
+                    media="(min-width:901px)"
+                    srcset="assets/images/carousel-image-big.webp"
+                  />
+                  <source
+                    media="(max-width:900px)"
+                    srcset="assets/images/carousel-image.webp"
+                  />
+                  <img
+                    class="d-block w-100"
+                    src="assets/images/carousel-image-big.webp"
+                    alt="it person"
+                    style="width: auto"
+                  />
+                </picture>
               </div>
             </div>
           </div>
@@ -170,19 +195,19 @@
         <h2>Our Clients</h2>
         <p>We've been working with some Fortune 500+ clients</p>
         <div class="client-logos">
-          <img src="assets/icons/client-logo-1.png" alt="client logo" />
+          <img src="assets/icons/client-logo-1.webp" alt="client logo" />
 
-          <img src="assets/icons/client-logo-2.png" alt="client logo" />
+          <img src="assets/icons/client-logo-2.webp" alt="client logo" />
 
-          <img src="assets/icons/client-logo-3.png" alt="client logo" />
+          <img src="assets/icons/client-logo-3.webp" alt="client logo" />
 
-          <img src="assets/icons/client-logo-4.png" alt="client logo" />
+          <img src="assets/icons/client-logo-4.webp" alt="client logo" />
 
-          <img src="assets/icons/client-logo-5.png" alt="client logo" />
+          <img src="assets/icons/client-logo-5.webp" alt="client logo" />
 
-          <img src="assets/icons/client-logo-6.png" alt="client logo" />
+          <img src="assets/icons/client-logo-6.webp" alt="client logo" />
 
-          <img src="assets/icons/client-logo-3.png" alt="client logo" />
+          <img src="assets/icons/client-logo-3.webp" alt="client logo" />
         </div>
       </section>
       <section id="community-section">
@@ -191,7 +216,7 @@
         <p>Who is NextCent suitable for?</p>
         <div class="community-offers">
           <div>
-            <img src="assets/icons/member-icon.png" alt="membership icon" />
+            <img src="assets/icons/member-icon.webp" alt="membership icon" />
             <h3>Membership</h3>
             <h3>Organisations</h3>
             <p>
@@ -200,7 +225,7 @@
             </p>
           </div>
           <div>
-            <img src="assets/icons/national-icon.png" alt="association icon" />
+            <img src="assets/icons/national-icon.webp" alt="association icon" />
             <h3>National</h3>
             <h3>Associations</h3>
             <p>
@@ -209,7 +234,7 @@
             </p>
           </div>
           <div>
-            <img src="assets/icons/clubs-icon.png" alt="clubs icon" />
+            <img src="assets/icons/clubs-icon.webp" alt="clubs icon" />
             <h3>Clubs</h3>
             <h3>and Groups</h3>
             <p>
@@ -221,7 +246,7 @@
       </section>
       <section id="login-about--section">
         <img
-          src="assets/images/login.png"
+          src="assets/images/login.webp"
           alt="login illustration"
           class="login-illustration"
         />
@@ -234,7 +259,7 @@
             similique. Sunt, dolorum, quaerat omnis deleniti ratione, magnam
             dignissimos iure laboriosam ab modi recusandae.
           </p>
-          <a href="">Learn More</a>
+          <a href="#">Learn More</a>
         </div>
       </section>
       <div class="section-wrapper-business">
@@ -251,14 +276,14 @@
           <div class="business-layout">
             <div class="business-upper">
               <div class="business-inner">
-                <img src="assets/icons/members-icon.png" alt="members icon" />
+                <img src="assets/icons/members-icon.webp" alt="members icon" />
                 <div>
                   <strong>2.245.341</strong>
                   <p>Members</p>
                 </div>
               </div>
               <div class="business-inner">
-                <img src="assets/icons/event-icon.png" alt="event icon" />
+                <img src="assets/icons/event-icon.webp" alt="event icon" />
                 <div>
                   <strong>828.867</strong>
                   <p>Event Bookings</p>
@@ -268,7 +293,7 @@
             <div class="business-lower">
               <div class="business-inner">
                 <img
-                  src="assets/icons/clubs2-icon.png"
+                  src="assets/icons/clubs2-icon.webp"
                   class="club-icon"
                   alt="clubs icon"
                 />
@@ -278,7 +303,7 @@
                 </div>
               </div>
               <div class="business-inner">
-                <img src="assets/icons/payment-icon.png" alt="payment icon" />
+                <img src="assets/icons/payment-icon.webp" alt="payment icon" />
                 <div>
                   <strong>1.926.436</strong>
                   <p>Payments</p>
@@ -291,7 +316,7 @@
 
       <section id="design-section">
         <img
-          src="assets/images/pana.png"
+          src="assets/images/pana.webp"
           alt="a woman browsing a giant phone - illustration"
           class="design-section--image"
         />
@@ -308,7 +333,7 @@
             culpa distinctio placeat fugit officiis mollitia nisi enim
             consequatur.
           </p>
-          <a href="">Learn More</a>
+          <a href="#">Learn More</a>
         </div>
       </section>
       <div class="tesla-wrapper">
@@ -342,22 +367,22 @@
             <p>British Dragon Boat Racing Association</p>
             <div>
               <img
-                src="assets/icons/client-purple-logo.png"
+                src="assets/icons/client-purple-logo.webp"
                 alt="purple client logo"
               /><img
-                src="assets/icons/client-logo-2.png"
+                src="assets/icons/client-logo-2.webp"
                 alt="client logo"
               /><img
-                src="assets/icons/client-logo-3.png"
+                src="assets/icons/client-logo-3.webp"
                 alt="client logo"
               /><img
-                src="assets/icons/client-logo-4.png"
+                src="assets/icons/client-logo-4.webp"
                 alt="client logo"
               /><img
-                src="assets/icons/client-logo-5.png"
+                src="assets/icons/client-logo-5.webp"
                 alt="client logo"
-              /><img src="assets/icons/client-logo-6.png" alt="client logo" />
-              <a href="">Meet all customers &#x2192;</a>
+              /><img src="assets/icons/client-logo-6.webp" alt="client logo" />
+              <a href="#">Meet all customers &#x2192;</a>
             </div>
           </div>
         </section>
@@ -375,7 +400,7 @@
             <img src="assets/images/woman.webp" alt="a woman using a laptop" />
             <div class="marketing-bubble">
               <p>Creating Streamlined Safeguard Processes with OneRen</p>
-              <a href="">Read more &#x2192;</a>
+              <a href="#">Read more &#x2192;</a>
             </div>
           </div>
           <div class="marketing-inner">
@@ -385,14 +410,14 @@
                 What are you safeguarding responsibilities and how can you
                 manage them?
               </p>
-              <a href="">Read more &#x2192;</a>
+              <a href="#">Read more &#x2192;</a>
             </div>
           </div>
           <div class="marketing-inner">
             <img src="assets/images/laptop2.webp" alt="a laptop" />
             <div class="marketing-bubble">
               <p>Revamping the Membership Model with Triathlon Australia</p>
-              <a href="">Read more &#x2192;</a>
+              <a href="#">Read more &#x2192;</a>
             </div>
           </div>
         </div>
@@ -402,7 +427,7 @@
       <footer>
         <div class="left-footer">
           <img
-            src="assets/icons/footer-logo.png"
+            src="assets/icons/footer-logo.webp"
             alt="website logo"
             class="website-logo--footer"
           />
@@ -412,23 +437,23 @@
           </div>
           <ul>
             <li>
-              <a href="">
-                <img src="assets/icons/instagram.png" alt="instagram logo" />
+              <a href="#">
+                <img src="assets/icons/instagram.webp" alt="instagram logo" />
               </a>
             </li>
             <li>
-              <a href="">
-                <img src="assets/icons/basket.png" alt="basketball icon" />
+              <a href="#">
+                <img src="assets/icons/basket.webp" alt="basketball icon" />
               </a>
             </li>
             <li>
-              <a href="">
-                <img src="assets/icons/tweet.png" alt="tweeter icon" />
+              <a href="#">
+                <img src="assets/icons/tweet.webp" alt="tweeter icon" />
               </a>
             </li>
             <li>
-              <a href="">
-                <img src="assets/icons/youtube.png" alt="youtube icon" />
+              <a href="#">
+                <img src="assets/icons/youtube.webp" alt="youtube icon" />
               </a>
             </li>
           </ul>
@@ -457,10 +482,16 @@
           <div>
             <h4>Stay up to date</h4>
             <div class="input-container">
-              <input type="email" placeholder="Your email address" required />
+              <input
+                type="email"
+                id="mail"
+                name="mail"
+                placeholder="Your email address"
+                required
+              />
 
               <img
-                src="assets/icons/send.png"
+                src="assets/icons/send.webp"
                 alt="arrow icon"
                 class="send-arrow"
               />
@@ -480,6 +511,7 @@
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"
     ></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
